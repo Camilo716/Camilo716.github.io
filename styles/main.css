@@ -154,6 +154,9 @@ li{
     height: 1px;
 }
 
+.project-image{
+    width: 100%;
+}
 
 @media(max-width:600px){
 

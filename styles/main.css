@@ -22,7 +22,7 @@
 }
 
 @keyframes fadeIn {
-    0% {opacity: 0.6;}
+    0% {opacity: 0.10;}
     100% {opacity: 1;}
 }
 

@@ -37,6 +37,7 @@ body{
 p, span, li{
     color: var(--secondaryTextColor);
     font-size: 1em;
+    text-align: justify;
 }
 
 a{

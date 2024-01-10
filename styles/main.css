@@ -138,14 +138,16 @@ li{
 }
 
 .card--project a{
-    color: var(--mainTextColor);
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
 
+    color: var(--mainTextColor);
     transition: 0.3s;
 }
 
 .card--project a:hover{
     color: rgb(30, 190,214);
-
 }
 
 .card--work-history{
@@ -162,12 +164,6 @@ li{
 
 .project-image{
     width: 100%;
-}
-
-.card--project a{
-    overflow: hidden;
-    position: relative;
-    display: inline-block;
 }
 
 a {

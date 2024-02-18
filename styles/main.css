@@ -129,12 +129,13 @@ li{
     border-radius: 5px;
     padding: 0.5em 1em;
     align-items: center;
+    transition: transform 0.3s ease-in-out;
 }
 
 .card--techstack:hover {
     cursor: pointer;
-    transition: transform .3s ease-in-out;
-    transform: scale(1.08);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.09);
 }
 
 .card--project{

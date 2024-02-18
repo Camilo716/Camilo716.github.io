@@ -9,7 +9,7 @@
 
     --mainTextColor-dark:#fff;
     --secondaryTextColor-dark:#adb0b1;
-    --mainLinkColor-dark:rgb(30, 190,214);
+    --mainLinkColor-dark:#7EFEC5;
     --mainBorderColor-dark:#2b3031;
     --mainBgColor-dark:#131415;
     
@@ -148,7 +148,7 @@ li{
 }
 
 .card--project a:hover{
-    color: rgb(30, 190,214);
+    color: var(--mainLinkColor);
 }
 
 .card--work-history{

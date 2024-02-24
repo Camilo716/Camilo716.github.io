@@ -120,6 +120,7 @@ li{
 #wrapper--techstack__items{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 1em;
     font-size: 0.9em;
 }
@@ -195,6 +196,14 @@ a::before {
 a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
+}
+
+#wrapper--recommended-books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    gap: 1em;
+    font-size: 0.9em;
 }
 
 @media(max-width:600px){
